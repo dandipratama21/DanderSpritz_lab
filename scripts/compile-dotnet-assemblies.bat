@@ -11,4 +11,4 @@ if exist %windir%\microsoft.net\framework64\v4.0.30319\ngen.exe (
 )
 
 :: continue even if ngen fails
-exit /b 0
+exit /b !1
